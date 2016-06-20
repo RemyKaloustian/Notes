@@ -4,6 +4,7 @@
     -webkit-font-smoothing: antialiased;
     font-size: x-small;
     color: #666666;
+    background-color:#ECEFF1;
 }
 
 ul, ol {
@@ -57,6 +58,6 @@ h3 {
 .gridster .gs_w {
     background: #FFF;
     cursor: pointer;
-    -webkit-box-shadow: 0 0 5px rgba(0,0,0,0.3);
-    box-shadow: 0 0 5px rgba(0,0,0,0.3);
+    -webkit-box-shadow: 0 0 5px #FFFFFF;
+    box-shadow: 0 0 5px #FFFFFF;
 }

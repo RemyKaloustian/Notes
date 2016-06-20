@@ -37,16 +37,21 @@
   <ItemGroup>
     <Content Include="grdisterfromthem.html" />
     <Content Include="index.html" />
-    <Content Include="jquery-3.0.0.js" />
-    <Content Include="jquery.collision.js" />
-    <Content Include="jquery.coords.js" />
-    <Content Include="jquery.draggable.js" />
-    <Content Include="jquery.gridster.css" />
-    <Content Include="jquery.gridster.extras.js" />
-    <Content Include="jquery.gridster.js" />
-    <Content Include="main.js" />
-    <Content Include="style.css" />
-    <Content Include="utils.js" />
+    <Content Include="assets\js\jquery-3.0.0.js" />
+    <Content Include="assets\js\gridster\jquery.collision.js" />
+    <Content Include="assets\js\gridster\jquery.coords.js" />
+    <Content Include="assets\js\gridster\jquery.draggable.js" />
+    <Content Include="assets\js\gridster\jquery.gridster.css" />
+    <Content Include="assets\js\gridster\jquery.gridster.extras.js" />
+    <Content Include="assets\js\gridster\jquery.gridster.js" />
+    <Content Include="assets\js\main.js" />
+    <Content Include="assets\css\style.css" />
+    <Content Include="assets\js\gridster\utils.js" />
+    <Content Include="assets\css\jquery.gridster.css" />
+    <Content Include="assets\js\gridster\jquery.gridster.min.js" />
+    <Content Include="assets\js\gridster\jquery.gridster.with-extras.js" />
+    <Content Include="assets\css\notie.css" />
+    <Content Include="assets\js\notie.js" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
