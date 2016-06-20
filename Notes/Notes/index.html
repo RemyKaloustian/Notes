@@ -1,0 +1,45 @@
+﻿<html>
+<head>
+    <title>gridster test</title>
+    <meta name="author" content="gyurisc">
+    <link rel="stylesheet" type="text/css" href="jquery.gridster.css">
+    <link rel="stylesheet" type="text/css" href="style.css">
+</head>
+<body>
+    <section class="demo">
+        <div class="gridster ready">
+            <ul style="height: 800px; width: 960px; position: relative;">
+                <li data-row="1" data-col="1" data-sizex="2" data-sizey="1" class="gs-w "><span class=""></span></li>
+                <li data-row="5" data-col="1" data-sizex="1" data-sizey="1" class="gs-w"><span class="gs-resize-handle gs-resize-handle-both"></span></li>
+
+                <li data-row="3" data-col="2" data-sizex="2" data-sizey="1" class="gs-w player-revert" style="position: absolute;"><span class="gs-resize-handle gs-resize-handle-both"></span></li>
+                <li data-row="1" data-col="3" data-sizex="2" data-sizey="2" class="gs-w" style="min-width: 140px; min-height: 140px;"><span class="gs-resize-handle gs-resize-handle-both"></span></li>
+
+                <li class="try gs-w" data-row="1" data-col="5" data-sizex="1" data-sizey="1" data-max-sizex="1" data-max-sizey="1"><span class="gs-resize-handle gs-resize-handle-both"></span></li>
+                <li data-row="2" data-col="5" data-sizex="2" data-sizey="1" class="gs-w"><span class="gs-resize-handle gs-resize-handle-both"></span></li>
+                <li data-row="3" data-col="5" data-sizex="1" data-sizey="1" class="gs-w"><span class="gs-resize-handle gs-resize-handle-both"></span></li>
+
+                <li data-row="1" data-col="6" data-sizex="1" data-sizey="1" class="gs-w"><span class="gs-resize-handle gs-resize-handle-both"></span></li>
+                <li data-row="3" data-col="6" data-sizex="1" data-sizey="1" class="gs-w"><span class="gs-resize-handle gs-resize-handle-both"></span></li>
+
+                <li data-row="4" data-col="1" data-sizex="1" data-sizey="1" class="gs-w"><span class="gs-resize-handle gs-resize-handle-both"></span></li>
+                <li data-row="2" data-col="1" data-sizex="1" data-sizey="2" class="gs-w" style="position: absolute;"><span class="gs-resize-handle gs-resize-handle-both"></span></li>
+            </ul>
+        </div>
+       
+    </section>
+    <script type="text/javascript" src="jquery-3.0.0.js"></script>
+    <script type="text/javascript" src="jquery.gridster.js" charster="utf-8"></script>
+    <script type="text/javascript">
+        var gridster;
+
+        $(function () {
+            gridtster = $(".gridster > ul").gridster({
+                widget_margins: [20, 20],
+                widget_base_dimensions: [300, 300],
+                min_cols: 6
+            }).data('gridster');
+        });
+    </script>
+</body>
+</html>
